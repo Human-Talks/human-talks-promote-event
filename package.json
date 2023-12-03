@@ -4,7 +4,7 @@
   "description": "My Remotion video",
   "scripts": {
     "start": "remotion studio",
-    "build": "remotion render HumanTalksIntro out/video.mp4",
+    "build": "remotion render HumanTalkIntro out/video.mp4",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
