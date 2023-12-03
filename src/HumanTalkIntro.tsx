@@ -1,4 +1,4 @@
-import { AbsoluteFill } from "remotion";
+import { AbsoluteFill, Sequence } from "remotion";
 import { Background, Logo, Title, Speakers } from "./components";
 
 const talk = {
@@ -20,30 +20,36 @@ export const HumanTalkIntro = () => {
     <>
       <Background />
 
-      <AbsoluteFill style={{
-        alignItems: "center",
-        top: "10%",
-      }}>
-        <Logo />
-      </AbsoluteFill>
-
-      <AbsoluteFill style={{
-        alignItems: "center",
-        top: "35%",
-      }}>
-        <div style={{
-          width: "80%"
+      <Sequence>
+        <AbsoluteFill style={{
+          alignItems: "center",
+          top: "10%",
         }}>
-          <Title text={talk.title}/>
-        </div>
-      </AbsoluteFill>
+          <Logo />
+        </AbsoluteFill>
+      </Sequence>
 
-      <AbsoluteFill style={{
-        alignItems: "center",
-        top: "62%",
-      }}>
-        <Speakers speakers={talk.speakers} />
-      </AbsoluteFill>
+      <Sequence from={15}>
+        <AbsoluteFill style={{
+          alignItems: "center",
+          top: "35%",
+        }}>
+          <div style={{
+            width: "80%"
+          }}>
+            <Title text={talk.title}/>
+          </div>
+        </AbsoluteFill>
+      </Sequence>
+
+      <Sequence from={30}>
+        <AbsoluteFill style={{
+          alignItems: "center",
+          top: "62%",
+        }}>
+          <Speakers speakers={talk.speakers} />
+        </AbsoluteFill>
+      </Sequence>
     </>
   );
 };

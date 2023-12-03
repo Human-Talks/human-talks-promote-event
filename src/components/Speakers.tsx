@@ -1,3 +1,4 @@
+import {interpolate, useCurrentFrame} from 'remotion'
 import { loadFont } from "@remotion/google-fonts/Roboto";
 import { Img, staticFile } from "remotion";
 const { fontFamily } = loadFont();
@@ -7,12 +8,17 @@ type SpeakersProps = {
 };
 
 export const Speakers = ({ speakers }: SpeakersProps) => {
+  const frame = useCurrentFrame();
+  const top = interpolate(frame, [0, 10], [420, 0], { extrapolateRight: "clamp" });
+
   return (
     <div style={{
+      position: "absolute",
       display: "flex",
       gap: "10%",
       height: "28%",
-      justifyContent: "center"
+      justifyContent: "center",
+      top: `${top}px`
     }}>
       { speakers.map(speaker =>
         <Speaker
