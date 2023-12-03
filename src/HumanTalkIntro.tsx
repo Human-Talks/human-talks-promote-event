@@ -19,13 +19,29 @@ export const HumanTalkIntro = () => {
   return (
     <>
       <Background />
+
       <AbsoluteFill style={{
         alignItems: "center",
-        justifyContent: "space-between",
-        padding: "6%"
+        top: "10%",
       }}>
         <Logo />
-        <Title text={talk.title} />
+      </AbsoluteFill>
+
+      <AbsoluteFill style={{
+        alignItems: "center",
+        top: "35%",
+      }}>
+        <div style={{
+          width: "80%"
+        }}>
+          <Title text={talk.title}/>
+        </div>
+      </AbsoluteFill>
+
+      <AbsoluteFill style={{
+        alignItems: "center",
+        top: "62%",
+      }}>
         <Speakers speakers={talk.speakers} />
       </AbsoluteFill>
     </>

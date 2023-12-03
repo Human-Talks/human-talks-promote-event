@@ -11,7 +11,7 @@ export const Speakers = ({ speakers }: SpeakersProps) => {
     <div style={{
       display: "flex",
       gap: "10%",
-      height: "34%",
+      height: "28%",
       justifyContent: "center"
     }}>
       { speakers.map(speaker =>
