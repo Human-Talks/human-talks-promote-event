@@ -1,15 +1,15 @@
 import { Composition } from 'remotion';
-import { HumanTalksIntro } from './HumanTalksIntro';
+import { HumanTalkIntro } from './HumanTalkIntro';
 
 export const RemotionRoot: React.FC = () => {
 	return (
     <Composition
-      id="HumanTalksIntro"
+      id="HumanTalkIntro"
       durationInFrames={150}
       fps={30}
       width={1920}
       height={1080}
-      component={HumanTalksIntro}
+      component={HumanTalkIntro}
     />
   );
 };
