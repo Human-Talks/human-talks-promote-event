@@ -21,29 +21,22 @@ A GitHub action generate videos automatically.
 
 ## Development
 
-**Install Dependencies**
 
-```console
-npm i
-```
+### Gitpod 
 
-**Start Preview**
+✨ You can use [Gitpod](https://gitpod.io) to contribute on this project. Click on this button and your workspace will be ready to use: 
 
-```console
-npm start
-```
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jeanphibaconnais/human-talks-promote-event)   
 
-**Render video**
+### Commands
 
-```console
-npm run build
-```
+- Install Dependencies : `npm i`
 
-**Upgrade Remotion**
+- Start Preview : `npm start`
 
-```console
-npm run upgrade
-```
+- Render video : `npm run build`
+
+- Upgrade Remotion : `npm run upgrade`
 
 ## Contributors
 
