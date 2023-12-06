@@ -19,7 +19,7 @@
   "devDependencies": {
     "@remotion/eslint-config": "4.0.63",
     "@remotion/google-fonts": "^4.0.76",
-    "@types/react": "^18.0.26",
+    "@types/react": "^18.2.42",
     "@types/web": "^0.0.86",
     "eslint": "^8.43.0",
     "prettier": "^2.8.8",
