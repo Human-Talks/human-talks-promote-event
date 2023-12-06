@@ -13,8 +13,11 @@ const talk = {
     name: "Alexis Lozano",
     pic: "alexis.jpeg"
   }],
-  date: "2023/12/12",
-  place: "Delia Technologies"
+  info: {
+    city: "🐘 Nantes",
+    date: "2023-12-12",
+    place: "Delia Technologies"
+  }
 };
 
 export const HumanTalkIntro = () => {
@@ -25,7 +28,7 @@ export const HumanTalkIntro = () => {
       <Sequence>
         <AbsoluteFill style={{
           alignItems: "center",
-          top: "10%",
+          top: "8%",
         }}>
           <Logo />
         </AbsoluteFill>
@@ -34,7 +37,7 @@ export const HumanTalkIntro = () => {
       <Sequence from={15}>
         <AbsoluteFill style={{
           alignItems: "center",
-          top: "35%",
+          top: "32%",
         }}>
           <div style={{
             width: "80%"
@@ -47,20 +50,18 @@ export const HumanTalkIntro = () => {
       <Sequence from={30}>
         <AbsoluteFill style={{
           alignItems: "center",
-          top: "62%",
+          top: "58%",
         }}>
           <Speakers speakers={talk.speakers} />
         </AbsoluteFill>
       </Sequence>
 
-
-      <Sequence from={30}>
+      <Sequence from={38}>
         <AbsoluteFill style={{
-          alignItems: "left",
-          top: "95%",
-          left: "2%"
+          alignItems: "center",
+          top: "95%"
         }}>
-          <EventInfo date={talk.date} place={talk.place} />
+          <EventInfo {...talk.info} />
         </AbsoluteFill>
       </Sequence>
     </>

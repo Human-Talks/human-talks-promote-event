@@ -4,22 +4,31 @@ import { useCurrentFrame } from "remotion";
 const { fontFamily } = loadFont();
 
 type EventInfoProps = {
+  city: string;
   date: string;
   place: string;
 };
 
-export const EventInfo = ({ date, place }: EventInfoProps) => {
+export const EventInfo = ({ city, date, place }: EventInfoProps) => {
   const frame = useCurrentFrame();
-  const top = interpolate(frame, [0, 10], [100, 0], { extrapolateRight: "clamp" });
+  const top = interpolate(frame, [0, 5], [60, 0], { extrapolateRight: "clamp" });
 
   return (
     <div style={{
+      position: "absolute",
       color: "#FFFFFF",
       fontFamily,
-      fontSize: "30px",
+      fontSize: "40px",
       fontWeight: 600,
       top: `${top}px`,
-      textAlign: "left"
-    }}>{ date } - { place }</div>
+      display: "flex",
+      justifyContent: "center",
+      gap: "10%",
+      width: "100%"
+    }}>
+      <span>{ city }</span>
+      <span>📍 { place }</span>
+      <span>🗓️ { date }</span>
+    </div>
   );
 };
