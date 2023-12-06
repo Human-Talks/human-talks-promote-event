@@ -15,7 +15,17 @@
     }
   },
   "skipCi": true,
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "alexislozano",
+      "name": "Alexis Lozano",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50751082?v=4",
+      "profile": "https://github.com/alexislozano",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
   "projectName": "human-talks-promote-event",
   "projectOwner": "jeanphibaconnais",
   "repoType": "github",
