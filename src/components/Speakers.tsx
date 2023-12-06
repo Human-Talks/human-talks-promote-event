@@ -1,6 +1,6 @@
-import {interpolate, useCurrentFrame} from 'remotion'
+import { interpolate, useCurrentFrame } from 'remotion'
 import { loadFont } from "@remotion/google-fonts/Roboto";
-import { Img, staticFile } from "remotion";
+import { Img } from "remotion";
 const { fontFamily } = loadFont();
 
 type SpeakersProps = {
@@ -15,8 +15,8 @@ export const Speakers = ({ speakers }: SpeakersProps) => {
     <div style={{
       position: "absolute",
       display: "flex",
-      gap: "10%",
-      height: "28%",
+      gap: "160px",
+      height: "30%",
       justifyContent: "center",
       top: `${top}px`
     }}>
@@ -41,14 +41,14 @@ const Speaker = ({ name, pic }: SpeakerProps) => {
       alignItems: "center",
       display: "flex",
       flexDirection: "column",
-      justifyContent: "space-between",
-      width: "12%"
+      gap: "28px",
+      width: "100%"
     }}>
       <Img style={{
         border: "4px solid white",
         borderRadius: "50%"
       }}
-        src={staticFile(pic)}
+        src={pic}
         width="100%"
       />
       <div style={{

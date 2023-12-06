@@ -12,20 +12,20 @@ export type Talk = {
 };
 
 export const talk: Talk = {
-  title: "Human Talks Nantes, how to become an organizer",
+  title: "This is the title of your next talk. As you can see it can be pretty long.",
   speakers: [{
-    name: "Jean-Phi Baconnais",
-    pic: "jeanPhi.jpeg"
+    name: "Felicia Rodriguez",
+    pic: "https://randomuser.me/api/portraits/women/63.jpg"
   }, {
-    name: "Julien Tanguy",
-    pic: "julien.jpeg"
+    name: "Gina Jackson",
+    pic: "https://randomuser.me/api/portraits/women/53.jpg"
   }, {
-    name: "Alexis Lozano",
-    pic: "alexis.jpeg"
+    name: "Terry Robinson",
+    pic: "https://randomuser.me/api/portraits/men/38.jpg"
   }],
   info: {
     city: "🐘 Nantes",
-    date: "2023-12-12",
-    place: "Delia Technologies"
+    date: "2024-01-01",
+    place: "Downtown"
   }
 };
