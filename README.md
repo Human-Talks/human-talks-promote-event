@@ -1,6 +1,6 @@
 # Human Talks promote event ✨
 
-This project will be used by [Human Talks](https://humantalks.com/) organizers to promote event.
+This project will be used by [Human Talks](https://humantalks.com/) organizers to promote events.
 
 Using [Remotion](https://www.remotion.dev/), this tools can generate easily short video, containing title, place and speaker name.
 
@@ -8,8 +8,12 @@ Using [Remotion](https://www.remotion.dev/), this tools can generate easily shor
 
 This project is currently private and will be public when a first release will be available 🚀.
 
+## CI/CD
 
-## Commands
+A GitHub action generate videos automatically.
+
+
+## Development
 
 **Install Dependencies**
 
@@ -34,3 +38,14 @@ npm run build
 ```console
 npm run upgrade
 ```
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
