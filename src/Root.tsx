@@ -1,5 +1,6 @@
 import { Composition } from 'remotion';
 import { HumanTalkIntro } from './HumanTalkIntro';
+import { talk } from "./talk";
 
 export const RemotionRoot: React.FC = () => {
 	return (
@@ -10,6 +11,7 @@ export const RemotionRoot: React.FC = () => {
       width={1920}
       height={1080}
       component={HumanTalkIntro}
+      defaultProps={talk}
     />
   );
 };

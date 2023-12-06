@@ -1,26 +1,8 @@
 import { AbsoluteFill, Sequence } from "remotion";
 import { Background, Logo, Title, Speakers, EventInfo } from "./components";
+import { Talk } from "./talk";
 
-const talk = {
-  title: "Human Talks Nantes, how to become an organizer",
-  speakers: [{
-    name: "Jean-Phi Baconnais",
-    pic: "jeanPhi.jpeg"
-  }, {
-    name: "Julien Tanguy",
-    pic: "julien.jpeg"
-  }, {
-    name: "Alexis Lozano",
-    pic: "alexis.jpeg"
-  }],
-  info: {
-    city: "🐘 Nantes",
-    date: "2023-12-12",
-    place: "Delia Technologies"
-  }
-};
-
-export const HumanTalkIntro = () => {
+export const HumanTalkIntro = (talk: Talk) => {
   return (
     <>
       <Background />
