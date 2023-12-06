@@ -1,4 +1,5 @@
 name: Render video
+on: workflow_dispatch
 jobs:
   render:
     name: Render video
