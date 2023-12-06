@@ -24,6 +24,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jeanphibaconnais",
+      "name": "Jean-Phi Baconnais",
+      "avatar_url": "https://avatars.githubusercontent.com/u/32639372?v=4",
+      "profile": "https://jeanphi-baconnais.gitlab.io/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "projectName": "human-talks-promote-event",
