@@ -1,5 +1,11 @@
 # Human Talks promote event ✨
 
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+
 This project will be used by [Human Talks](https://humantalks.com/) organizers to promote events.
 
 Using [Remotion](https://www.remotion.dev/), this tools can generate easily short video, containing title, place and speaker name.
