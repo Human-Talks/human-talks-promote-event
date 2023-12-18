@@ -26,7 +26,7 @@ A GitHub action generate videos automatically.
 
 ✨ You can use [Gitpod](https://gitpod.io) to contribute on this project. Click on this button and your workspace will be ready to use: 
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/jeanphibaconnais/human-talks-promote-event)   
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Human-Talks/human-talks-promote-event)   
 
 ### Commands
 
