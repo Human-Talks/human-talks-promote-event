@@ -8,8 +8,8 @@ export const RemotionRoot: React.FC = () => {
       id="HumanTalkIntro"
       durationInFrames={120}
       fps={30}
-      width={1920}
-      height={1080}
+      width={1200}
+      height={1200}
       component={HumanTalkIntro}
       defaultProps={talk}
     />
