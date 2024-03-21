@@ -4,7 +4,10 @@ export const Background = () => {
   return (
     <AbsoluteFill>
       <AbsoluteFill>
-        <Img src={staticFile("background.png")} />
+        <Img src={staticFile("background.png")} style={{
+          width : 2100,
+          height : '100%'
+        }} />
       </AbsoluteFill>
       <AbsoluteFill style={{
         backgroundColor: "#790257",

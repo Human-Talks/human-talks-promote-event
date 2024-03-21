@@ -11,14 +11,14 @@ type EventInfoProps = {
 
 export const EventInfo = ({ city, date, place }: EventInfoProps) => {
   const frame = useCurrentFrame();
-  const top = interpolate(frame, [0, 5], [60, 0], { extrapolateRight: "clamp" });
+  const top = interpolate(frame, [0, 500], [10, 0], { extrapolateRight: "clamp" });
 
   return (
     <div style={{
       position: "absolute",
       color: "#FFFFFF",
       fontFamily,
-      fontSize: "40px",
+      fontSize: "50px",
       fontWeight: 600,
       top: `${top}px`,
       display: "flex",

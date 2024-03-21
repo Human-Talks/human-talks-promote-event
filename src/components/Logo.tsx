@@ -9,7 +9,7 @@ export const Logo = () => {
       opacity
     }}
       src={staticFile("logo.png")}
-      width="20%"
+      width="40%"
     />
   );
 };

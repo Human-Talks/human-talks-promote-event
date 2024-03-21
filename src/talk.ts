@@ -12,20 +12,14 @@ export type Talk = {
 };
 
 export const talk: Talk = {
-  title: "This is the title of your next talk. As you can see it can be pretty long.",
+  title: "Tout ce qui est cassé avec les pull requests",
   speakers: [{
-    name: "Felicia Rodriguez",
+    name: "Hadrien MENS-PELLEN",
     pic: "https://randomuser.me/api/portraits/women/63.jpg"
-  }, {
-    name: "Gina Jackson",
-    pic: "https://randomuser.me/api/portraits/women/53.jpg"
-  }, {
-    name: "Terry Robinson",
-    pic: "https://randomuser.me/api/portraits/men/38.jpg"
   }],
   info: {
     city: "🐘 Nantes",
-    date: "2024-01-01",
-    place: "Downtown"
+    date: "2024-04-09",
+    place: "Nickel"
   }
 };

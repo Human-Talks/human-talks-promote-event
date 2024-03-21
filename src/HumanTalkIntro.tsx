@@ -19,7 +19,7 @@ export const HumanTalkIntro = (talk: Talk) => {
       <Sequence from={15}>
         <AbsoluteFill style={{
           alignItems: "center",
-          top: "32%",
+          top: "30%",
         }}>
           <div style={{
             width: "80%"
@@ -32,7 +32,7 @@ export const HumanTalkIntro = (talk: Talk) => {
       <Sequence from={30}>
         <AbsoluteFill style={{
           alignItems: "center",
-          top: "58%",
+          top: "50%",
         }}>
           <Speakers speakers={talk.speakers} />
         </AbsoluteFill>
@@ -41,7 +41,7 @@ export const HumanTalkIntro = (talk: Talk) => {
       <Sequence from={38}>
         <AbsoluteFill style={{
           alignItems: "center",
-          top: "95%"
+          top: "90%"
         }}>
           <EventInfo {...talk.info} />
         </AbsoluteFill>
