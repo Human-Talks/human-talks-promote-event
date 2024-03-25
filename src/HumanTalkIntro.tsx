@@ -32,7 +32,8 @@ export const HumanTalkIntro = (talk: Talk) => {
       <Sequence from={30}>
         <AbsoluteFill style={{
           alignItems: "center",
-          top: "50%",
+          top: "55%",
+
         }}>
           <Speakers speakers={talk.speakers} />
         </AbsoluteFill>

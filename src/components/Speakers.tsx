@@ -54,7 +54,7 @@ const Speaker = ({ name, pic }: SpeakerProps) => {
       <div style={{
         color: "white",
         fontFamily,
-        fontSize: "32px",
+        fontSize: "32px", 
         textAlign: "center"
       }}>
         { name }
