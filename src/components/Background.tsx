@@ -5,7 +5,7 @@ export const Background = () => {
     <AbsoluteFill>
       <AbsoluteFill>
         <Img src={staticFile("background.png")} style={{
-          width : 2100,
+          width : 2000,
           height : '100%'
         }} />
       </AbsoluteFill>
