@@ -6,7 +6,7 @@ export const RemotionRoot: React.FC = () => {
 	return (
     <>
     <Folder name="HT-Nantes-Avril">
-      {talks.map((talk, index) => (
+      {talks.map(talk => (
         <Composition
           id={talk.pos}
           durationInFrames={120}
