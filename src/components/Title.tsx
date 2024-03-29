@@ -9,7 +9,7 @@ type Props = {
 
 export const Title = ({ text }: Props) => {
   const frame = useCurrentFrame();
-  const opacity = interpolate(frame, [0, 30], [0, 1]);
+  const opacity = interpolate(frame, [15, 45], [0, 1]);
 
   return (
     <div style={{

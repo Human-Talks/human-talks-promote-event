@@ -11,20 +11,19 @@ type EventInfoProps = {
 
 export const EventInfo = ({ city, date, place }: EventInfoProps) => {
   const frame = useCurrentFrame();
-  const top = interpolate(frame, [0, 500], [10, 0], { extrapolateRight: "clamp" });
+  const opacity = interpolate(frame, [45, 75], [0, 1]);
 
   return (
     <div style={{
-      position: "absolute",
       color: "#FFFFFF",
       fontFamily,
       fontSize: "50px",
       fontWeight: 600,
-      top: `${top}px`,
       display: "flex",
       justifyContent: "center",
       gap: "10%",
-      width: "100%"
+      width: "100%",
+      opacity
     }}>
       <span>{ city }</span>
       <span>📍 { place }</span>

@@ -9,16 +9,15 @@ type SpeakersProps = {
 
 export const Speakers = ({ speakers }: SpeakersProps) => {
   const frame = useCurrentFrame();
-  const top = interpolate(frame, [0, 10], [420, 0], { extrapolateRight: "clamp" });
+  const opacity = interpolate(frame, [30, 60], [0, 1]);
 
   return (
     <div style={{
-      position: "absolute",
       display: "flex",
       gap: "160px",
       width: "100%",
       justifyContent: "center",
-      top: `${top}px`
+      opacity
     }}>
       { speakers.map(speaker =>
         <Speaker
