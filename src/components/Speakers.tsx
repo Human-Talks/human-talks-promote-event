@@ -16,7 +16,7 @@ export const Speakers = ({ speakers }: SpeakersProps) => {
       position: "absolute",
       display: "flex",
       gap: "160px",
-      height: "30%",
+      width: "100%",
       justifyContent: "center",
       top: `${top}px`
     }}>
@@ -42,7 +42,7 @@ const Speaker = ({ name, pic }: SpeakerProps) => {
       display: "flex",
       flexDirection: "column",
       gap: "28px",
-      width: "100%"
+      width: "20%"
     }}>
       <Img style={{
         border: "4px solid white",
