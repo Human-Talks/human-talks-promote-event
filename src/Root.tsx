@@ -5,7 +5,7 @@ import { talks } from "./talk";
 export const RemotionRoot: React.FC = () => {
 	return (
     <>
-    <Folder name="HT-Nantes-Avril">
+    <Folder name="HT-Nantes-2025-Mars">
       {talks.map(talk => (
         <Composition
           id={talk.pos}

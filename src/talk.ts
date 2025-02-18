@@ -18,7 +18,7 @@ export const talks: Array<Talk> = [
     title: "WordPress : open source ou commercial ?",
     speakers: [{
       name: "Patrice de Saint Steban",
-      pic: ""
+      pic: "speakers/PatriceDESAINTSTEBAN.jpg"
     }],
     info: {
       city: "🐘 Nantes",
@@ -31,7 +31,7 @@ export const talks: Array<Talk> = [
     title: "Il est temps de dire adieu à l’attribut title",
     speakers: [{
       name: "François-Xavier Lair",
-      pic: ""
+      pic: "speakers/fx-lair.jpg"
     }],
     info: {
       city: "🐘 Nantes",
@@ -41,23 +41,10 @@ export const talks: Array<Talk> = [
   },
   {
     pos: "3",
-    title: "Développer avec une IA : retour d'expérience de Cursor",
-    speakers: [{
-      name: "Julien Landuré",
-      pic: ""
-    }],
-    info: {
-      city: "🐘 Nantes",
-      date: "2025-03-11",
-      place: "Valeuriad"
-    }
-  },
-  {
-    pos: "4",
     title: "Craft-ia, un outil pour faire du peer programming avec une IA",
     speakers: [{
       name: "Benoît Riaza",
-      pic: ""
+      pic: "speakers/BenoitRiaza.png"
     }],
     info: {
       city: "🐘 Nantes",
