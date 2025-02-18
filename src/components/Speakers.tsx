@@ -1,4 +1,4 @@
-import { interpolate, useCurrentFrame } from 'remotion'
+import { interpolate, useCurrentFrame, staticFile } from 'remotion'
 import { loadFont } from "@remotion/google-fonts/Roboto";
 import { Img } from "remotion";
 const { fontFamily } = loadFont();
@@ -47,7 +47,7 @@ const Speaker = ({ name, pic }: SpeakerProps) => {
         border: "4px solid white",
         borderRadius: "50%"
       }}
-        src={pic}
+        src={staticFile(pic)}
         width="100%"
       />
       <div style={{

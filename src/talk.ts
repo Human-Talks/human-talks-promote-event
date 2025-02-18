@@ -15,28 +15,41 @@ export type Talk = {
 export const talks: Array<Talk> = [ 
   {
     pos: "1",
-    title: "Tout ce qui est cassé avec les pull requests",
+    title: "WordPress : open source ou commercial ?",
     speakers: [{
-      name: "Hadrien Mens-Pellen",
-      pic: "https://randomuser.me/api/portraits/women/63.jpg"
+      name: "Patrice de Saint Steban",
+      pic: "speakers/PatriceDESAINTSTEBAN.jpg"
     }],
     info: {
       city: "🐘 Nantes",
-      date: "2024-04-09",
-      place: "Nickel"
+      date: "2025-03-11",
+      place: "Valeuriad"
     }
   },
   {
     pos: "2",
-    title: "La positive alt-itude ! Un outil d'inclusion pour votre accessibilité",
+    title: "Il est temps de dire adieu à l’attribut title",
     speakers: [{
-      name: "Angi Guyard",
-      pic: "https://randomuser.me/api/portraits/women/63.jpg"
+      name: "François-Xavier Lair",
+      pic: "speakers/fx-lair.jpg"
     }],
     info: {
       city: "🐘 Nantes",
-      date: "2024-04-09",
-      place: "Nickel"
+      date: "2025-03-11",
+      place: "Valeuriad"
+    }
+  },
+  {
+    pos: "3",
+    title: "Craft-ia, un outil pour faire du peer programming avec une IA",
+    speakers: [{
+      name: "Benoît Riaza",
+      pic: "speakers/BenoitRiaza.png"
+    }],
+    info: {
+      city: "🐘 Nantes",
+      date: "2025-03-11",
+      place: "Valeuriad"
     }
   }
 ];

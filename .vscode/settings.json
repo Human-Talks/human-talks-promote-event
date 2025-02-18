@@ -5,5 +5,7 @@
 		"source.organizeImports": "never",
 		"source.fixAll": "explicit"
 	},
-	"typescript.enablePromptUseWorkspaceTsdk": true
+	"typescript.enablePromptUseWorkspaceTsdk": true,
+	"IDX.aI.enableInlineCompletion": true,
+	"IDX.aI.enableCodebaseIndexing": true
 }
